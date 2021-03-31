@@ -22,7 +22,7 @@
 
 ### 登录
 绑定gitlab用户access_token,如何创建详情请查看[gitlab docs](https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html)。获取到access_token后请保存到本地, 目前服务器未做gitlab代理。数据库未做用户权限管理。
-![](assets/img/login.png)。获取到access_token后请保存到本地, 目前服务器未做gitlab代理。数据库未做用户权限管理。
+![](assets/img/login.png)
 
 ### gitlab导入
 平台会调用gitlab授权用户项目的列表，支持用户导入gitlab项目。并设置基础信息和部署该项目nginx端口(dev、test、production)
