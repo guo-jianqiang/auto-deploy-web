@@ -5,7 +5,11 @@
 
 ## 使用到的技术
 ### ci-web
-react+typescript+antd, 使用[Ant Design](https://ant.design/index-cn)作为项目的UI组件库
+
+- react
+- typescript
+- [Ant Design](https://ant.design/index-cn)
+
 ### ci-server
 - koa2 搭建http服务器
 - [ws](https://github.com/websockets/ws) 搭建websocket服务器
