@@ -21,11 +21,11 @@
 
 
 ### 登录
-绑定gitlab用户access_token,如何创建详情请查看[gitlab docs](https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html)
+绑定gitlab用户access_token,如何创建详情请查看[gitlab docs](https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html)。获取到access_token后请保存到本地, 目前服务器未做gitlab代理。数据库未做用户权限管理。
 ![](assets/img/login.png)。获取到access_token后请保存到本地, 目前服务器未做gitlab代理。数据库未做用户权限管理。
 
 ### gitlab导入
-平台会调用gitlab授权用户项目的列表，支持用户导入gitlab项目。并设置可设置基础信息和部署该项目nginx端口(dev、test、production)
+平台会调用gitlab授权用户项目的列表，支持用户导入gitlab项目。并设置基础信息和部署该项目nginx端口(dev、test、production)
 
 ![](assets/img/gitlab.png)
 
@@ -52,7 +52,7 @@
 
 ## 如何部署配置该项目
 
-<!--部署的前端项目package.json中的scripts应有以下命令，用的不同环境拉取不同分支代码和打包环境配置-->
+**部署的前端项目package.json中的scripts应有以下命令，用的不同环境拉取不同分支代码和打包环境配置**
 
 ```jso
 "scripts": {
