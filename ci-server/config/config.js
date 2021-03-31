@@ -19,8 +19,11 @@ module.exports = {
     port: 22,
     username: 'root'
   },
+  // 日志存放目录
   log_dir: '/logs',
+  // 项目打包文件目录
   project_dir: '/projects',
+  // nginx配置地址
   deploy_dir: {
     dev: '/web/dev',
     test: '/web/test',

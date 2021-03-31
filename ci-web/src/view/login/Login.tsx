@@ -43,9 +43,6 @@ const Login: FC<LoginProps> = (props: {}) => {
     console.log('Failed:', errorInfo)
   }
   const {SERVER_URL, CLIENT_ID, SECRET, REDIRECT_URL} = process.env.APP_CONFIG as any
-  console.log(SERVER_URL)
-  console.log(123)
-  // const gitLabAuthPath = `${AUTH_URL}?client_id=${CLIENT_ID}&redirect_uri=${REDIRECT_URL}&response_type=code&scope=api`
   const {username, password} = getItem(ACCOUNT_INFO)
   return (
     <div className={style.login}>

@@ -88,5 +88,5 @@ export const paginationConfig = {
   pageSize: 20,
 }
 
-export const {WS_SERVER_URL, GITLAB_URL, AUTH_URL, CLIENT_ID, SECRET, REDIRECT_URL, SERVER_URL} = process
+export const {WS_SERVER_URL, GITLAB_URL, CLIENT_ID, SECRET, REDIRECT_URL, SERVER_URL} = process
   .env.APP_CONFIG as any

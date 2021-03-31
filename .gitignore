@@ -3,3 +3,4 @@
 /ci-server/projects
 /ci-server/logs
 /ci-web/node_modules
+/ci-web/dist

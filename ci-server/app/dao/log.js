@@ -31,7 +31,9 @@ class LogDao {
   static async updateStatus (id, status) {
     return Log.update({status}, {
       fields: ['status'],
-      where: id
+      where: {
+        id
+      }
     })
   }
 }
