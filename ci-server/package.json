@@ -1,0 +1,38 @@
+{
+  "name": "blog-server",
+  "version": "1.0.0",
+  "description": "博客服务端",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "deploy": "pm2 restart ./ecosystem.config.js"
+  },
+  "author": "郭建强",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/cors": "^3.1.0",
+    "axios": "^0.21.1",
+    "basic-auth": "^2.0.1",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.13.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-router": "^10.0.0",
+    "koa-static": "^5.0.0",
+    "koa-views": "^7.0.0",
+    "koa2-formidable": "^1.0.2",
+    "lodash": "^4.17.20",
+    "moment": "^2.29.1",
+    "mysql2": "^2.2.5",
+    "node-ssh": "^11.1.1",
+    "redis": "^3.0.2",
+    "require-directory": "^2.1.1",
+    "sequelize": "^6.3.5",
+    "socket.io": "^4.0.0",
+    "socket.io-client": "^4.0.0",
+    "ssh2": "^0.8.9",
+    "uuid": "^8.3.2",
+    "validator": "^13.5.2",
+    "ws": "^7.4.4"
+  }
+}

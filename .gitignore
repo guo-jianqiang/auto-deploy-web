@@ -1,0 +1,5 @@
+/ci-server/node_modules
+/ci-server/public
+/ci-server/projects
+/ci-server/logs
+/ci-web/node_modules

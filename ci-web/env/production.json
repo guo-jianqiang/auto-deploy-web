@@ -1,0 +1,10 @@
+{
+    "SERVER_URL": "http://localhost:3001",
+    "WS_SERVER_URL": "ws://localhost:3000",
+    "GITLAB_URL": "https://gitlab.com/api/v4",
+    "GITLAB_TOKEN": "Csx4zhHkWGj6MCTij_yF",
+    "AUTH_URL": "https://gitlab.com/oauth/authorize",
+    "CLIENT_ID": "58db3ac21a6703ffbfcd59eef559c4404a79f095089eddda6794a8605dc74863",
+    "SECRET": "9ad7b61c63a80b513319148f07cccbb763e5d237535e62009c8a51a29a9cbbcd",
+    "REDIRECT_URL": "http://localhost:8000/login"
+  }
